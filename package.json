@@ -1,0 +1,26 @@
+{
+  "name": "codebreak",
+  "version": "1.0.0",
+  "description": "String generator using JavaScript, NPM ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianedwards-jpg/code_break.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "NPM"
+  ],
+  "author": "Ian Edwards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianedwards-jpg/code_break/issues"
+  },
+  "homepage": "https://github.com/ianedwards-jpg/code_break#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
