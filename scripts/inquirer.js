@@ -1,11 +1,7 @@
 const inquirer = require('inquirer');
 const path = require('path')
 
-// module.exports = {
-    
-//     data: 
-    
-  const output=   function urlParamsInq() {
+function urlParamsInq() {
 
     inquirer
         .prompt([
@@ -27,7 +23,7 @@ const path = require('path')
         ])
         .then(answers => {
             console.log('https://www.dropbox.com/sh/' + answers.postChars + '/restofURL');
-            return answers
+            module.export = answers
         })
         .catch(error => {
             if (error.isTtyError) {
@@ -36,15 +32,10 @@ const path = require('path')
                 // Something else when wrong
             }
         });
-   
-    }
+}
 
-module.exports = {output}
-    // urlParamsInq (); 
-// };
+urlParamsInq (); 
 
-
-
-
+export function urlParamsInq ()
 
 
